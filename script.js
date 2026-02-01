@@ -55,7 +55,7 @@
 */
 const messages = [
     "Are you sure?",
-    "Maaannn jaaa meri Chammak Challoo!!",
+    "Maaannn jaaa meri Chammak Challoo!! Mere jesa pyar me pagal koi nhi milega.",
     "Meri kaju katli mjhe mna kregi tu?",
     "Soch to le meri gulab jamun. Oh Sorry! meri Gori Jamun!",
     "Aur kitna tadpaegiiii. Haeeeee!!!! Uiiiii maaaaa.. Ro Ro ke meri kamar.. Haee!!",
