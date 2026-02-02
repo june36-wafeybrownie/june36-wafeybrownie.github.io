@@ -1,18 +1,18 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Changed from center */
-    min-height: 100vh;
     margin: 0;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
     overflow-y: auto;
-    padding: 20px 0; /* Added vertical padding */
 }
 
 .container {
     text-align: center;
     padding: 20px;
+    min-height: 100vh; /* Each container takes full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header_text {
