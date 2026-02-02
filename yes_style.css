@@ -8,7 +8,7 @@ body {
 .container {
     text-align: center;
     padding: 20px;
-    min-height: 100vh; /* Each container takes full viewport height */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,8 +22,8 @@ body {
 }
 
 .gif_container {
-    width: 90%; /* Added this */
-    max-width: 800px; /* Added this */
+    width: 90%;
+    max-width: 800px;
 }
 
 .gif_container img {
