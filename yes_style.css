@@ -21,8 +21,12 @@ body {
     word-wrap: break-word;
 }
 
+.gif_container {
+    width: 90%; /* Added this */
+    max-width: 800px; /* Added this */
+}
+
 .gif_container img {
-    width: 100%; 
-    max-width: 800px; 
+    width: 100%;
     height: auto; 
 }
