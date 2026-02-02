@@ -2,23 +2,39 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Changed from height to min-height */
     margin: 0;
+    padding: 20px; /* Added padding */
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
     text-align: center;
+    max-width: 800px; /* Added max-width */
+    width: 100%;
 }
 
 .header_text {
-    font-size: 3em;
+    font-size: clamp(1.5rem, 5vw, 3rem); /* Responsive font size */
     color: #d32f2f;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: clamp(0.9rem, 2.5vw, 1.1rem); /* Make paragraph responsive too */
+    line-height: 1.6;
+    text-align: left;
+    word-wrap: break-word;
 }
 
 .gif_container img {
     width: 100%; 
     max-width: 500px; 
     height: auto; 
+    margin-top: 1.5rem;
 }
