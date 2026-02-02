@@ -1,23 +1,24 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Changed from height */
+    align-items: flex-start; /* Changed from center */
+    min-height: 100vh;
     margin: 0;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
-    overflow-y: auto; /* Added scrolling */
+    overflow-y: auto;
+    padding: 20px 0; /* Added vertical padding */
 }
 
 .container {
     text-align: center;
-    padding: 20px; /* Added padding so content doesn't touch edges */
+    padding: 20px;
 }
 
 .header_text {
     font-size: 3em;
     color: #d32f2f;
-    word-wrap: break-word; /* Prevents text from going off-screen */
+    word-wrap: break-word;
 }
 
 .gif_container img {
